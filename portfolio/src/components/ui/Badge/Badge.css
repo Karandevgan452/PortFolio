@@ -1,0 +1,35 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 9999px;
+  padding: var(--spacing-1) var(--spacing-3);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.badge--default {
+  background: linear-gradient(to right, #334155, #475569);
+  color: #e2e8f0;
+}
+
+.badge--outline {
+  background: transparent;
+  border: 1px solid rgba(192, 132, 252, 0.5);
+  color: #d8b4fe;
+}
+
+.badge--secondary {
+  background: linear-gradient(to right, #334155, #475569);
+  color: #e2e8f0;
+  width: 100%;
+  padding: var(--spacing-3) var(--spacing-4);
+  text-align: center;
+  cursor: default;
+}
+
+.badge--secondary:hover {
+  background: linear-gradient(to right, rgba(34, 211, 238, 0.2), rgba(168, 85, 247, 0.2));
+  color: var(--cyan-400);
+  transform: scale(1.05);
+}

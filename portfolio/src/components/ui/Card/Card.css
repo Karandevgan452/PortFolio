@@ -1,0 +1,15 @@
+.card {
+  background: rgba(30, 41, 59, 0.5);
+  border: 1px solid #334155;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  border-color: rgba(34, 211, 238, 0.5);
+  transform: scale(1.05);
+}
+
+.card__content {
+  padding: var(--spacing-6);
+}
